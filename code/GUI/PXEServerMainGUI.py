@@ -25,7 +25,7 @@ NETBOOT_DIR = 'netboot'
 NETBOOT_FILE = ''
 
 HTTP_SERVER_PORT = 80
-ISO_FILENAME = 'dsl.iso'
+ISO_FILENAME = 'ubuntu.iso'
 
 #DHCP Default Server Settings
 DHCP_SERVER_IP = '192.168.2.2'
@@ -175,7 +175,7 @@ class GUI:
         self.showNetBootDirPath.grid(row=0, column=1, padx=(10, 10), pady=(5, 5))
         
         global ISO_FILENAME
-        ISO_FILENAME = 'dsl.iso'
+        ISO_FILENAME = 'ubuntu.iso'
         self.btnChooseISO = Button(tab5, text = 'Choose ISO present in above directory', command=self.getISOFileName)
         self.showChosenISOPath = Label(tab5, text='./'+NETBOOT_DIR+"/"+ISO_FILENAME)
         self.btnChooseISO.grid(row=1, column=0, padx=(10, 10), pady=(5, 5))

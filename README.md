@@ -6,18 +6,13 @@ PXE is a protocol & standard (now incorported into UEFI (Unified Extensible Firm
 
 Local HTTP, DHCP & TFTP are coded purely/fully in python.
 
-The PXE server can be configured using 2 interfaces
-
-* CLI (Command Line Interface)
-* GUI (Graphicsla User Interface) using python-tk (tkinter) package
-
-# Command Line Interface
+# PXE Server CLI (Command Line Interface)
 
 ![CLI1](https://raw.githubusercontent.com/riteshRcH/pxe_server_rpi_cluster/master/screenshots/CLI1.png)
 
 ![CLI2](https://raw.githubusercontent.com/riteshRcH/pxe_server_rpi_cluster/master/screenshots/CLI2.png)
 
-# Graphical User Interface using python-tk (tkinter) package
+# PXE Server GUI (Graphical User Interface) using python-tk (tkinter) package
 
 ![GUI1](https://raw.githubusercontent.com/riteshRcH/pxe_server_rpi_cluster/master/screenshots/GUI1.png)
 

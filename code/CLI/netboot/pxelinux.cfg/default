@@ -1,0 +1,15 @@
+default menu.c32
+prompt 0
+timeout 300
+ONTIMEOUT local
+
+MENU TITLE PXEServer
+
+LABEL TinyCore
+    MENU LABEL TinyCore
+    KERNEL memdisk
+    APPEND iso initrd=Core.iso
+
+LABEL local
+        MENU LABEL Boot local hard drive
+        LOCALBOOT 0

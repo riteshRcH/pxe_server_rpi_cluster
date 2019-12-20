@@ -1,0 +1,4 @@
+#!ipxe
+dhcp
+initrd http://10.0.0.2:5489/dsl.iso
+chain http://10.0.0.2:5489/memdisk iso

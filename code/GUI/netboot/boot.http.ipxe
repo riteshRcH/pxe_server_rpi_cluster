@@ -1,0 +1,5 @@
+#!ipxe
+dhcp
+initrd http://10.0.0.2:80/dsl.iso
+chain http://10.0.0.2:80/memdisk iso
+sanboot

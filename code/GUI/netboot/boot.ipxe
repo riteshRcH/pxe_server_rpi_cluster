@@ -1,0 +1,4 @@
+#!ipxe
+dhcp
+initrd tftp://10.0.0.2/dsl.iso
+chain tftp://10.0.0.2/memdisk iso
